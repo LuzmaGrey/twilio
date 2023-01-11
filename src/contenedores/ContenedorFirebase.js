@@ -31,7 +31,7 @@ class ContenedorFirebase {
       loggerFiles.error(error);
     }
   }
-
+//comment test
   async mostrarTodos() {
     try {
       const snapshot = await this.coleccion.get();
